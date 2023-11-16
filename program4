@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <script>
+        function showAlert() {
+            
+            window.location.href = "page5.html"; 
+        }
+    </script>
+</head>
+<body style="background-color:naveyblue">
+    <h1><center>customer module</center></h1><br><br>
+<center>
+    <form action="/admin/add_road" method="post">
+            <h2>Add/Update crop Details</h2>
+           famer Name: <input type="text" name="farmerName" required><br><br>
+          	My Sales: <input type="text" name="My Sales" required><br><br>
+        	Manage Orders: <input type="text" name="Manage Orders" required><br><br>
+            Date of compalint: <input type="date" name="compalintDate" required><br><br>
+           feedback: <input type="text" name="feedback" required><br><br>
+	   AMOUNT: <input type="text" name="AMOUNT" required><br><br>
+
+    </form>
+<center>
+   <form>
+        <button type="button" onclick="showAlert()">submit</button>
+    </form>
+</body>
+</html>
